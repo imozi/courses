@@ -2,9 +2,19 @@
 restapi courses & client
 
 ## api
-     create .env 
-      PORT: `server port`
-      DATA_BASE_URL:  `url data base`
-	  
-> start server: npm start 
-> start dev server: npm run dev
+Create a `.env` file 
+
+```sh
+PORT=your port
+DATA_BASE_URL=url mongodb
+JWT_KEY=secret
+```
+-----
+
+To install and run it:
+
+```sh
+npm i
+npm start #production server
+npm run dev #development server
+```
