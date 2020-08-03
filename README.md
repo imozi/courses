@@ -1,4 +1,4 @@
-# courses
+# courses (в стадии разработки)
 restapi courses & client
 
 ## api
